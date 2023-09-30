@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title('O-oi... sou o gato adivinho, consigo saber seu numero de cartão, quer ver??')
 
-imagem = st.image(r'pngwing.com.png', width=500)
+imagem = st.image(st.secrets['imagem']['image'])
 
 with st.form("form"):
 
